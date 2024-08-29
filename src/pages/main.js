@@ -10,7 +10,7 @@ import { RouterAuth } from "../router/routerAuth";
 const { Content } = Layout;
 
 const Main = () => {
-    // const [collapsed, setCollapsed] = useState(false);
+    
     const {
         token: { colorBgContainer, borderRadiusLG },
     } = theme.useToken();
